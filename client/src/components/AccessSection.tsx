@@ -4,9 +4,9 @@
  */
 export default function AccessSection() {
   const hours = [
-    { day: "月曜日 — 金曜日", time: "8:00 — 20:00" },
-    { day: "土曜日", time: "9:00 — 21:00" },
-    { day: "日曜日・祝日", time: "10:00 — 19:00" },
+    { day: "雙峰祭 1日目", time: "10:00 — 17:00" },
+    { day: "雙峰祭 2日目", time: "10:00 — 17:00" },
+    { day: "雙峰祭 3日目", time: "10:00 — 15:00" },
   ];
 
   return (
@@ -52,15 +52,15 @@ export default function AccessSection() {
                 className="text-base leading-relaxed"
                 style={{ fontFamily: "var(--font-body)", color: "oklch(0.18 0.01 60)", fontWeight: 300 }}
               >
-                〒150-0001<br />
-                東京都渋谷区神宮前 3-14-8<br />
-                Lumière Building 1F
+                〒305-8577<br />
+                茨城県つくば市天王台1-2<br />
+                一の矢学生宿舎 1A棟
               </p>
               <p
                 className="text-sm mt-2"
                 style={{ fontFamily: "var(--font-body)", color: "oklch(0.55 0.03 60)", fontWeight: 300 }}
               >
-                表参道駅 A2出口より徒歩5分
+                つくば駅より徒歩約1時間（健脚の方向け）
               </p>
             </div>
 
@@ -70,7 +70,7 @@ export default function AccessSection() {
                 className="text-xs tracking-[0.3em] uppercase mb-4"
                 style={{ fontFamily: "var(--font-body)", color: "oklch(0.55 0.03 60)", fontWeight: 400 }}
               >
-                Opening Hours
+                Festival Hours
               </p>
               <div className="space-y-3">
                 {hours.map((h) => (
@@ -104,7 +104,7 @@ export default function AccessSection() {
             {/* Reservation CTA */}
             <div>
               <a
-                href="tel:03-0000-0000"
+                href="#access"
                 className="inline-flex items-center gap-4 px-8 py-4 text-sm tracking-[0.2em] uppercase transition-all duration-300 hover:opacity-80"
                 style={{
                   fontFamily: "var(--font-body)",
@@ -116,7 +116,7 @@ export default function AccessSection() {
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.15a16 16 0 006.94 6.94l1.51-1.51a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
                 </svg>
-                Reservation: 03-0000-0000
+                一の矢 1A棟 屋台へ
               </a>
             </div>
           </div>
@@ -144,13 +144,13 @@ export default function AccessSection() {
                       lineHeight: 1,
                     }}
                   >
-                    表参道
+                    一の矢
                   </div>
                   <div
                     className="mt-4 text-xs tracking-[0.3em] uppercase"
                     style={{ fontFamily: "var(--font-body)", color: "oklch(0.78 0.09 75)", fontWeight: 400 }}
                   >
-                    Omotesando, Tokyo
+                    Ichino-ya, Tsukuba
                   </div>
                 </div>
               </div>

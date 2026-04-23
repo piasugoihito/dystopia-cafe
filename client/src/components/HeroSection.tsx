@@ -98,7 +98,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.3 }}
         >
-          Est. 2024 · Paris-Inspired
+          筑波大学 雙峰祭 2024
         </motion.p>
 
         <motion.h1
@@ -115,7 +115,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.4, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
         >
-          Café Lumière
+          一の矢ぬるぬる
         </motion.h1>
 
         <motion.div
@@ -129,7 +129,7 @@ export default function HeroSection() {
             className="text-xs tracking-[0.3em] uppercase"
             style={{ fontFamily: "var(--font-body)", color: "oklch(0.45 0.07 330)", fontWeight: 300 }}
           >
-            光の中の一杯
+            健康と美味、そしてヌルヌル
           </span>
           <span style={{ display: "block", width: "4rem", height: "1px", background: "oklch(0.78 0.09 75)" }} />
         </motion.div>
@@ -141,8 +141,8 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.9 }}
         >
-          すべての一杯に、物語がある。<br />
-          光と花と香りが溶け合う、特別な時間へ。
+          一の矢学生宿舎発、本気の屋台。<br />
+          雙峰祭に、ヌルヌルな健康をお届けします。
         </motion.p>
 
         <motion.a

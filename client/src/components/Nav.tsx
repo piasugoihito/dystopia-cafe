@@ -49,7 +49,7 @@ export default function Nav() {
             letterSpacing: "0.15em",
           }}
         >
-          Café Lumière
+          一の矢ぬるぬる健康チーム
         </a>
 
         {/* Desktop links */}
@@ -79,7 +79,7 @@ export default function Nav() {
               borderRadius: "0",
             }}
           >
-            Reserve
+            Access
           </a>
         </nav>
       </div>

@@ -22,14 +22,14 @@ export default function FooterSection() {
                 letterSpacing: "0.1em",
               }}
             >
-              Café Lumière
+              一の矢ぬるぬる健康チーム
             </p>
             <p
               className="text-sm leading-relaxed"
               style={{ fontFamily: "var(--font-body)", color: "oklch(0.65 0.02 60)", fontWeight: 300 }}
             >
-              光の中に、特別な一杯を。<br />
-              東京・表参道の隠れ家カフェ。
+              筑波大学 雙峰祭出店。<br />
+              一の矢学生宿舎発、本気の屋台。
             </p>
           </div>
 
@@ -123,7 +123,7 @@ export default function FooterSection() {
             className="text-xs"
             style={{ fontFamily: "var(--font-body)", color: "oklch(0.45 0.01 60)", fontWeight: 300 }}
           >
-            © 2024 Café Lumière. All rights reserved.
+            © 2024 一の矢ぬるぬる健康チーム / 筑波大学 雙峰祭
           </p>
           <div className="flex gap-6">
             {["Privacy Policy", "Terms of Service"].map((l) => (

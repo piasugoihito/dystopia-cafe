@@ -24,7 +24,7 @@ export default function ConceptSection() {
         }}
         aria-hidden
       >
-        L
+        雙
       </div>
 
       <div className="container relative z-10">
@@ -35,7 +35,7 @@ export default function ConceptSection() {
               className="text-xs tracking-[0.4em] uppercase mb-6"
               style={{ fontFamily: "var(--font-body)", color: "oklch(0.78 0.09 75)", fontWeight: 400 }}
             >
-              Our Philosophy
+              Our Concept
             </p>
             <h2
               className="leading-[1.05] mb-8"
@@ -48,9 +48,9 @@ export default function ConceptSection() {
                 letterSpacing: "-0.01em",
               }}
             >
-              光が注ぐ、<br />
-              <span style={{ color: "oklch(0.78 0.09 75)" }}>美しい時間</span>を<br />
-              あなたに。
+              ヌルヌルで、<br />
+              <span style={{ color: "oklch(0.78 0.09 75)" }}>元気になれる</span>。<br />
+              それが私たちの信念。
             </h2>
             <div
               style={{
@@ -67,25 +67,23 @@ export default function ConceptSection() {
               className="text-lg leading-[1.9]"
               style={{ fontFamily: "var(--font-body)", color: "oklch(0.35 0.02 60)", fontWeight: 300 }}
             >
-              Café Lumièreは、「光」を意味するフランス語から生まれました。
-              一杯のコーヒーが持つ力——それは、慌ただしい日常の中に、
-              ほんの少しの静けさと豊かさをもたらすことだと私たちは信じています。
+              私たち「一の矢ぬるぬる健康チーム」は、筑波大学一の矢学生宿舎の住人による屋台グループです。
+              「ヌルヌル」をキーワードに、食べることで内側から健康になれる料理を探究しました。
             </p>
             <p
               className="text-lg leading-[1.9]"
               style={{ fontFamily: "var(--font-body)", color: "oklch(0.35 0.02 60)", fontWeight: 300 }}
             >
-              厳選されたシングルオリジンの豆、季節の花々で彩られた空間、
-              そして職人が丁寧に仕上げたパティスリー。
-              すべては、あなたの「特別な瞬間」のために設計されています。
+              雙峰祭の一日、屋台で食べたことが翁日の元気の源になる——そんな一皿を目指しています。
+              お走りの際は、ぜひ一の矢まで足を運んでください。
             </p>
 
             {/* Stats row */}
             <div className="grid grid-cols-3 gap-8 pt-8 border-t" style={{ borderColor: "oklch(0.90 0.02 60)" }}>
               {[
-                { num: "12", label: "Signature Drinks" },
-                { num: "8", label: "Seasonal Pastries" },
-                { num: "∞", label: "Moments of Joy" },
+                { num: "3", label: "Signature Menus" },
+                { num: "1A", label: "Ichino-ya Dorm" },
+                { num: "∞", label: "Nururu Power" },
               ].map((s) => (
                 <div key={s.label} className="text-center">
                   <div
